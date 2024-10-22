@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: lightgray;
+}
+
+#main-div {
+    margin-top: 7%;
+    width: 50%;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#excited-image {
+    width: 70%;
+    height: 100%;
+}
+
+.heading {
+    margin-top: 10%;
+    text-align: center;
+    color: blueviolet;
+}
+
+.ready-div {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    margin-top: 10%;
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    border-width: 1px;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: blueviolet;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    background-color: blueviolet;
+    color: white;
+    transition: background-color 0.3s, transform 0.01s;
+}
+
+.submit-button:hover {
+    cursor:pointer;
+}
+
+.submit-button-button:active{
+    transform: scale(0.95);
+}
+
+.radio-button {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.option-label {
+    color: #36454F;
+    font-size: 18px;
+    font-weight: bold;
+}
